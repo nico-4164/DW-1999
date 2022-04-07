@@ -1,0 +1,119 @@
+
+/* 
+Estilo de la cabecera 
+*/
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+
+    width: 100%; /* Hace que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posiciona la cabecera al lado izquierdo */
+	top: 0; /* Posiciona la cabecera pegada arriba */
+	position: fixed; /* Hace que la cabecera tenga una posición fija */
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 30px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+
+/*
+ * Navegación
+ */
+ nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+/*
+*Estilo del contenido
+*/
+body{
+    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/70/48/s4RUNh.jpg);
+}
+
+#contenedor-info{
+    padding-top: 3%;
+    margin-left: 20%;
+    width: 50%;
+    background-color: aqua;
+}
+
+#info{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#contenedor-digievoluviones{
+    max-width: 85%;
+    background-color: green;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#img-digievoluciones{
+    margin-left: 0;
+    max-width: 30%;
+}
+#col-iconos{
+    max-width: 100px;
+}
+
+#tabla-digievoluciones{
+    width: 100%;
+}
+
+#tabla-digievoluciones tbody{
+
+    background-color: white;
+}
+
+
+
