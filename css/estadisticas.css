@@ -1,10 +1,15 @@
 
-/* 
-Estilo de la cabecera 
-*/
+
+body{
+	padding-top: 3%;
+    background-color: #6862F5;
+}
+
+
+/************************	Estilo de la cabecera 	************************/
 
 #main-header {
-	background: #333;
+	background: #00458F;
 	color: white;
 	height: 80px;
 
@@ -17,9 +22,8 @@ Estilo de la cabecera
 		color: white;
 	}
 
-/*
- * Logo
- */
+/************************	Logo	************************/
+
 #logo-header {
 	float: left;
 	padding: 30px 0 0 20px;
@@ -42,9 +46,8 @@ Estilo de la cabecera
 		color: #999;
 	}
 
-/*
- * Navegación
- */
+/************************	Navegación	************************/
+
  nav {
 	float: right;
 }
@@ -70,18 +73,76 @@ Estilo de la cabecera
 					background: #0b76a6;
 				}
 
-/*
-*Estilo del contenido
-*/
-body{
-    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/70/48/s4RUNh.jpg);
+/************************	BARRA LATERAL	************************/
+
+.lateral{
+    box-sizing: border-box;
+    width: max(8%, 200px);
+    display: inline-block;
+    position: fixed;
+     padding-top: 30px
+    }
+
+.lateral header{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background: aqua
+    }
+.lateral ul{
+    list-style:none;
+    padding-left:0;
+    margin-top:0;
+    }
+.lateral ul li{
+    display:block;
+    position: relative;
+    padding: 8px 10px;
+    margin-left:0;
+    border-bottom:1px solid #060696
+    }
+.lateral ul li a{
+    color: black;
+    text-decoration:none; 
+    }
+.lateral ul li a:after{
+    content: ' ';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    }
+.lateral ul li:hover, .lateral ul li:hover a{
+    background: red;
+    color: white;
+    }
+
+/************************	Estilo del contenido	************************/
+
+.principal{
+    margin-left: max(10%, 200px);
+    padding: 0 10px;
+    height: 100%;
+	width: 88.75%;
+    text-align: justify;
+    background:white;
+    }
+
+#cuadro{
+	background: #001933;
+    border-radius: 0.25rem;
+    margin: 15px 0;
+    padding: 15px;
 }
 
+/************************	Tabla Informacion principal		************************/
+
 #contenedor-info{
-    padding-top: 3%;
     margin-left: 20%;
     width: 50%;
-    background-color: aqua;
+    background-color: green;
 }
 
 #info{
@@ -89,10 +150,12 @@ body{
     background-color: blueviolet;
 }
 
+/************************	Tabla  Digievoluciones		************************/
+
 #contenedor-digievoluviones{
-    max-width: 85%;
+    max-width: 98%;
     background-color: green;
-    margin-left: 5%;
+    margin-left: 1%;
     text-align: center;
     font-size: 2em;
 
@@ -106,11 +169,11 @@ body{
     max-width: 100px;
 }
 
-#tabla-digievoluciones{
+#tabla-formato{
     width: 100%;
 }
 
-#tabla-digievoluciones tbody{
+#tabla-formato tbody{
 
     background-color: white;
 }

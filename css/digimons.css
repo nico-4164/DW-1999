@@ -3,10 +3,10 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
+	color: #27255C;
 	font-size: 1em;
 	line-height: 1.5em;
-	background-color: #333;
+	background-color: #002042;
     padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
 }
 
@@ -32,7 +32,7 @@ Estilo de la cabecera
 */
 
 #main-header {
-	background: #333;
+	background: #002042;
 	color: white;
 	height: 80px;
 
@@ -99,28 +99,46 @@ nav {
 					background: #0b76a6;
 				}
 
-/* Diseño del contenido */
+/**********************		Diseño del contenido		**********************/
 
 #main-content {
-	background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/70/48/s4RUNh.jpg);
+	background-color: #4843A8;
 	width: 95%;
 	margin: 20px auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 	
 }
+
+/**********************		Cuadro de digimons bebes		**********************/
+
 	#main-content .content .bebes{
         margin-left: 25%;
 		width: 50%;
 		background-color: lightpink;
+		text-align: center;
 	}
 
+
+/**********************		Cuadro de digimons rokkies		**********************/
+
+
 	#main-content .content .rookie{
+		margin-left: 0.4%;
+		text-align: center;
 		background-color: lightgreen;
 	}
+
+	#main-content .content .rookie td img{
+		max-width: 195px;
+	}
+
+/**********************		Cuadro de digimons Campeones		**********************/
 
 	#main-content .content .champion{
 		background-color: lightblue;
 	}
+
+/**********************		Cuadro de digimons Ultimate		**********************/
 
 	#main-content .content .ultimate{
 		background-color: crimson;
@@ -133,7 +151,7 @@ nav {
 /* Diseño para el pie de pagina */
 
 #main-footer {
-	background: #333;
+	background: #27255C;
 	color: white;
 	text-align: center;
 	width: 100%;
